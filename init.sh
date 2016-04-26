@@ -1,28 +1,14 @@
 #!/bin/sh
-
-
-
-# echo $AP_API_KEY
-# echo 'http://api.ap.org/v2/reports/4a64dd973b614dd4a2b92e78dd33bfd6?apiKey='$AP_API_KEY
-# results=$(curl 'http://api.ap.org/v2/reports/4a64dd973b614dd4a2b92e78dd33bfd6?apiKey='$AP_API_KEY)
-# results=$(curl 'http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=Y&format=json') | jq '.races[0]'
-results=$(curl 'http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=Y&format=json' | jq '{officeName: .races[].officeName, seatname: .races[].seatName }')
-echo "$results"
-
-# function get_init {
-#   curl 'http://api.ap.org/v2/elections/2012-11-06?apiKey=$AP_API_KEY&statePostal=CA&officeID=Y&format=json'
-# }
-
-# function init_db {
-#   CREATE TABLE results(
-#     id varchar,
-#     lastupdated varchar,
-#     officename varchar,
-#     seatname varchar,
-#     precintsreportingpct numeric,
-#     first_name varchar,
-#     last_name varchar,
-#     votecount int,
-#     winner bool
-#   ); | mysql -h -U root
-# }
+# echo $ELECTIONS_DB_HOST
+# echo $ELECTIONS_DB_USER
+# echo $ELECTIONS_DB_PASS
+# mysql -h $ELECTIONS_DB_HOST -u $ELECTIONS_DB_USER -p $ELECTIONS_DB_PASS << EOF
+mysql -h $ELECTIONS_DB_HOST -u$ELECTIONS_DB_USER -p$ELECTIONS_DB_PASS election2016 << EOF
+# show databases;
+# USE election2016;
+CREATE TABLE test(officename varchar(30) NOT NULL, seatname varchar(30) NOT NULL, lastupdated varchar(25) NOT NULL, precincts int(4), firstname varchar(25) NOT NULL, lastname varchar(25) NOT NULL, votecount int(10), winner varchar(4));
+show tables;
+describe test;
+# INSERT into test (officename, seatname, lastupdated, precincts, firstname, lastname, votecount, winner) VALUES ('State Senate', 'District 3', '2015-11-10T11:14:36Z', 100, 'test', 'test', 196,);
+# SELECT * FROM test;
+EOF
