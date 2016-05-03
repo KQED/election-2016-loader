@@ -1,2 +1,4 @@
 .DS_Store
 exports.sh
+node_modules/
+Archive.zip
