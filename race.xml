@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EML>
+  <EMLHeader>
+    <TransactionId>171</TransactionId>
+    <MessageLanguage>en-US</MessageLanguage>
+    <IssueDate>2014-10-09T12:55:11-07:00</IssueDate>
+    <OfficialStatusDetail>
+      <OfficialStatus>UnOfficial</OfficialStatus>
+      <StatusDate>2014-10-09</StatusDate>
+    </OfficialStatusDetail>
+  </EMLHeader>
+  <Count>
+    <EventIdentifier>
+      <EventName>California_2014_Statewide_Gubernatorial_General_Election_TEST_DATA</EventName>
+    </EventIdentifier>
+    <Election>
+      <ElectionIdentifier IdNumber="20141009"/>
+      <Contests>
+        <Contest>
+          <ContestIdentifier IdNumber="020000000000">
+            <ContestName>Governor - Statewide Results</ContestName>
+          </ContestIdentifier>
+          <TotalVotes>
+            <CountMetric Id="PR" Type="Precincts Reporting">50000</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">58000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </TotalVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="1">Alameda</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="2">Alpine</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="3">Amador</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="4">Butte</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="5">Calaveras</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="6">Colusa</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="7">Contra Costa</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="8">Del Norte</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="9">El Dorado</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="10">Fresno</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="11">Glenn</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="12">Humboldt</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="13">Imperial</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="14">Inyo</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="15">Kern</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="16">Kings</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="17">Lake</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="18">Lassen</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="19">Los Angeles</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="20">Madera</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="21">Marin</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="22">Mariposa</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="23">Mendocino</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="24">Merced</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="25">Modoc</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="26">Mono</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="27">Monterey</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="28">Napa</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="29">Nevada</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="30">Orange</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="31">Placer</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="32">Plumas</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="33">Riverside</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="34">Sacramento</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="35">San Benito</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="36">San Bernardino</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="37">San Diego</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="38">San Francisco</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="39">San Joaquin</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="40">San Luis Obispo</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="41">San Mateo</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="42">Santa Barbara</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="43">Santa Clara</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="44">Santa Cruz</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="45">Shasta</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="46">Sierra</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="47">Siskiyou</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="48">Solano</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="49">Sonoma</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="50">Stanislaus</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="51">Sutter</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="52">Tehama</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="53">Trinity</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="54">Tulare</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="55">Tuolumne</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="56">Ventura</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="57">Yolo</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+          <ReportingUnitVotes>
+            <ReportingUnitIdentifier IdNumber="58">Yuba</ReportingUnitIdentifier>
+            <CountMetric Id="PR" Type="Precincts Reporting">0</CountMetric>
+            <CountMetric Id="TP" Type="Total Precincts">1000</CountMetric>
+            <CountMetric Id="RT" Type="ReportType">0</CountMetric>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Democratic</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="1" IdNumber="389"/>
+                <CandidateFullName>
+                  <PersonFullName>Edmund G. "Jerry" Brown</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+            <Selection>
+              <AffiliationIdentifier>
+                <RegisteredName>Republican</RegisteredName>
+              </AffiliationIdentifier>
+              <Candidate>
+                <CandidateIdentifier DisplayOrder="2" IdNumber="428"/>
+                <CandidateFullName>
+                  <PersonFullName>Neel Kashkari</PersonFullName>
+                </CandidateFullName>
+                <StatusDetails/>
+              </Candidate>
+              <ValidVotes>0</ValidVotes>
+              <CountMetric Id="PVR" Type="Percent Votes in Race">0.0</CountMetric>
+            </Selection>
+          </ReportingUnitVotes>
+        </Contest>
+      </Contests>
+    </Election>
+  </Count>
+</EML>
