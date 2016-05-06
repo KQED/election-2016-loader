@@ -21,6 +21,7 @@ $ export MYSQL_COMMAND='mysql'
 ```
 $ git clone https://github.com/KQED/election-2016-loader.git
 $ cd election-2016-loader
+```
 
 ##Running the Service Locally
 ```
