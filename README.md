@@ -16,6 +16,7 @@ $ export ELECTIONS_DB_PASS='YOUR_MYSQL_PASSWORD'
 $ export ELECTIONS_DB_PORT='YOUR_MYSQL_PORT'
 $ export MYSQL_COMMAND='mysql'
 ```
+Note: This loader is programmed to use a database named 'election2016'.
 
 ##Installation
 ```
