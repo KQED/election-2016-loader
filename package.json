@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SYU88/election-2016-loader#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "helmet": "^2.0.0"
   }
 }
