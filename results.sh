@@ -27,10 +27,10 @@ get_ap_results
 function get_sos_results {
   mkdir sos
   cd sos
-  response=$(curl --write-out %{http_code} --silent --output /dev/null http://cms.cdn.sos.ca.gov/media/16PP/X16PPv7.zip)
+  response=$(curl --write-out %{http_code} --silent --output /dev/null http://media.sos.ca.gov/media/X16DPv7.zip)
   if [ "$response" -eq 200 ];then
     echo 'grabbing data from sos'
-    curl http://cms.cdn.sos.ca.gov/media/16PP/X16PPv7.zip > sosresults.zip
+    curl http://media.sos.ca.gov/media/X16DPv7.zip > sosresults.zip
     find . -name "*.xml" -exec rm {} \;
     unzip sosresults.zip
     rm sosresults.zip

@@ -36,11 +36,19 @@ app.post('/getResults', function(req, res) {
   });
 });
 
-app.get('/sosResults', function(req, res){
+app.get('/sosStateSenate', function(req, res){
   
   res.contentType('application/xml');
   //won't work unless file exists (must run results.sh to populate)
-  res.sendFile(path.join(__dirname, './sos/X16PP510_0100v7.xml'));
+  res.sendFile(path.join(__dirname, './sos/X16DP510_1200v7.xml'));
+  
+});
+
+app.get('/sosStateAssembly', function(req, res){
+  
+  res.contentType('application/xml');
+  //won't work unless file exists (must run results.sh to populate)
+  res.sendFile(path.join(__dirname, './sos/X16DP510_1300v7.xml'));
   
 });
 
