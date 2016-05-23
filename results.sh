@@ -7,7 +7,7 @@ function get_ap_results {
   for url in "${urls[@]}"
     do
       #Make GET request to AP API and use jq to format into object
-      results=$(curl $url | jq -r ' .races[] | {officeName, seatName} + (.reportingUnits[] | {lastUpdated, precinctsReportingPct} + (.candidates[] | {first, last, voteCount, winner}))')
+      results=$(curl $url | jq -r ' .races[] | {officeName, seatName} + (.reportingUnits[] | {lastUpdated, precinctsReportingPct} + (.candidates[] | {first, last, party, voteCount, winner}))')
       #Use jq to replace null values with "null" and transform object into list of values separated by commas
       formatted=`echo $results | jq 'if .seatName == null then .seatName="null" else . end' | jq 'if .winner == null then .winner="null" else . end' | jq -r 'map(.) | @csv'`
       #IFS set for to separate on newline 
@@ -16,25 +16,10 @@ function get_ap_results {
       for line in $formatted
         do
           #Create SQL insert query with data received from AP API
-          query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, votecount, winner) VALUES ('$line');'`
+          query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, party, votecount, winner) VALUES ('$line');'`
           echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
       done
   done
 }
 
 get_ap_results
-
-function get_sos_results {
-  mkdir sos
-  cd sos
-  response=$(curl --write-out %{http_code} --silent --output /dev/null http://cms.cdn.sos.ca.gov/media/16PP/X16PPv7.zip)
-  if [ "$response" -eq 200 ];then
-    echo 'grabbing data from sos'
-    curl http://cms.cdn.sos.ca.gov/media/16PP/X16PPv7.zip > sosresults.zip
-    find . -name "*.xml" -exec rm {} \;
-    unzip sosresults.zip
-    rm sosresults.zip
-  fi
-}
-
-get_sos_results
