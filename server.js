@@ -36,14 +36,6 @@ app.post('/getResults', function(req, res) {
   });
 });
 
-app.get('/sosResults', function(req, res){
-  
-  res.contentType('application/xml');
-  //won't work unless file exists (must run results.sh to populate)
-  res.sendFile(path.join(__dirname, './sos/X16PP510_0100v7.xml'));
-  
-});
-
 var server = app.listen(PORT, function(){
 
   console.log('Server listening on port ' + PORT);
