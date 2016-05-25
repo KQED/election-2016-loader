@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "******************init is running********************"
 $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS << EOF
 CREATE DATABASE IF NOT EXISTS election2016;
 USE election2016;

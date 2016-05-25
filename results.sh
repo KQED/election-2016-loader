@@ -1,6 +1,7 @@
 #!/bin/sh
 
 function get_ap_results {
+  echo "******************results is running********************"
   #IFS (internal field separator) is reset
   IFS=
   declare -a urls=('http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=P&format=json' 'http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=Z&seatNum=3,9,11,15&format=json' 'http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=Y&seatNum=4,14,16,24,27&format=json' 'http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=H&seatNum=17&format=json' 'http://api.ap.org/v2/elections/2012-11-06?apiKey='$AP_API_KEY'&statePostal=CA&officeID=S&format=json')
@@ -15,9 +16,22 @@ function get_ap_results {
 
       for line in $formatted
         do
-          #Create SQL insert query with data received from AP API
-          query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, party, votecount, winner) VALUES ('$line');'`
-          echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
+          IFS=',' read -r -a array <<< "$line"
+          # echo ${array[@]}
+          exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (firstname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}'));'`
+          echo $exists
+          doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
+          if [ "$doesexist" -ge "1" ];then
+            echo "exists"
+            #Create SQL insert query with data received from AP API
+            query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, party, votecount, winner) VALUES ('$line');'`
+            echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
+          else 
+            echo "doesn't exist"
+            #Create SQL insert query with data received from AP API
+            query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, party, votecount, winner) VALUES ('$line');'`
+            echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
+          fi
       done
   done
 }
