@@ -16,17 +16,14 @@ function get_ap_results {
 
       for line in $formatted
         do
-          echo $line
           IFS=',' read -r -a array <<< "$line"
           exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (firstname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}'));'`
           doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
           if [ "$doesexist" -ge "1" ];then
-            echo "exists"
             #Create SQL insert query with data received from AP API
             query=`echo 'UPDATE APresults SET lastupdated='${array[2]}', precincts='${array[3]}', party='${array[6]}', votecount='${array[7]}', winner='${array[8]}' WHERE (lastname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}')'`
             echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
           else 
-            echo "doesn't exist"
             #Create SQL insert query with data received from AP API
             query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, party, votecount, winner) VALUES ('$line');'`
             echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
@@ -57,16 +54,12 @@ function get_ap_prop_results {
           exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (lastname = '${array[4]}' AND officename = '${array[0]}'));'`
           doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
           if [ "$doesexist" -ge "1" ];then
-            echo "exists"
             newline="${line},'null'"
-            echo $newline
             query=`echo 'UPDATE APresults SET lastupdated='${array[2]}', precincts='${array[3]}', party='${array[5]}', votecount='${array[6]}', winner='${array[7]}' WHERE (lastname = '${array[4]}' AND officename = '${array[0]}')'`
             echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
           else 
-            echo "doesn't exist"
             nullline=',"null"'
             newline=$line$nullline
-            echo $newline
             query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, lastname, party, votecount, winner, firstname) VALUES ('$newline');'`
             echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
           fi
