@@ -2,3 +2,4 @@
 exports.sh
 node_modules/
 Archive.zip
+dump.rdb
