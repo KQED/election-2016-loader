@@ -1,10 +1,11 @@
 # Election 2016 Loader
 
 ##About
-A loader that collects election results from AP API and CA Secretary of State XML feed and loads them into MySQL. Inspiration for some of this repo was taken from [NPR's Elex Loader](https://github.com/nprapps/ap-election-loader).
+A loader that collects election results from AP API and loads them into MySQL. Inspiration for some of this repo was taken from [NPR's Elex Loader](https://github.com/nprapps/ap-election-loader).
 
 ##Requirements
 - MySQL
+- jq
 
 ##Configuration
 Set the following environment variables:
@@ -29,3 +30,6 @@ $ mysql.server start
 $ source init.sh
 $ source results.sh
 ```
+
+##Ebextensions
+###The ebextensions folder has two 
