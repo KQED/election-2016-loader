@@ -32,4 +32,6 @@ $ source results.sh
 ```
 
 ##Ebextensions
-###The ebextensions folder has two 
+###The ebextensions folder has two config files which run when deployed to an AWS Elastic Beanstalk instance
+####- createdb.config creates the database election2016 if it doesn't exist and drops and creates the APresults table, if it exists. It then indexes the AP data into the APresults table
+####- mysqlinstall.config installs mysql and and jq in the Linux server
