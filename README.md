@@ -1,10 +1,11 @@
 # Election 2016 Loader
 
 ##About
-A loader that collects election results from AP API and CA Secretary of State XML feed and loads them into MySQL. Inspiration for some of this repo was taken from [NPR's Elex Loader](https://github.com/nprapps/ap-election-loader).
+A loader that collects election results from AP API and loads them into MySQL. Inspiration for some of this repo was taken from [NPR's Elex Loader](https://github.com/nprapps/ap-election-loader).
 
 ##Requirements
 - MySQL
+- jq
 
 ##Configuration
 Set the following environment variables:
@@ -30,3 +31,8 @@ $ mysql.server start
 $ source init.sh
 $ source results.sh
 ```
+
+##Ebextensions
+###The ebextensions folder has two config files which run when deployed to an AWS Elastic Beanstalk instance
+####- createdb.config creates the database election2016 if it doesn't exist and drops and creates the APresults table, if it exists. It then indexes the AP data into the APresults table
+####- mysqlinstall.config installs mysql and and jq in the Linux server
