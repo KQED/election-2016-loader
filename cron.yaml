@@ -2,4 +2,4 @@ version: 1
 cron:
   - name: "getResults"
     url: "/getResults"
-    schedule: "* * */14 * *"
+    schedule: "*/10 * * * *"
