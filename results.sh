@@ -3,6 +3,10 @@
 #function for general AP results
 function get_ap_results {
   echo "******************results is running********************"
+  query=`echo 'DROP TABLE APresults'`
+  echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
+  query=`echo 'CREATE TABLE APresults(officename varchar(30) NOT NULL, seatname varchar(30) NOT NULL, party varchar(25), lastupdated varchar(25) NOT NULL, precincts int(4), firstname varchar(25), lastname varchar(25) NOT NULL, votecount int(10), winner varchar(4), createdAt timestamp NOT NULL default now(), updatedAt DATETIME DEFAULT NULL);'`
+  echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
   #IFS (internal field separator) is reset
   IFS=
   declare -a urls=('http://api.ap.org/v2/elections/2016-06-07?apiKey='$AP_API_KEY'&statePostal=CA&officeID=P&officeID=S&format=json&test=true' 'http://api.ap.org/v2/elections/2016-06-07?apiKey='$AP_API_KEY'&statePostal=CA&officeID=Z&seatNum=3,7,9,11,13,15,17&format=json&test=true' 'http://api.ap.org/v2/elections/2016-06-07?apiKey='$AP_API_KEY'&statePostal=CA&officeID=Y&seatNum=2,4,10,11,14,15,16,17,18,19,20,22,24,25,27,28,29,30&format=json&test=true' 'http://api.ap.org/v2/elections/2016-06-07?apiKey='$AP_API_KEY'&statePostal=CA&officeID=H&seatNum=2,3,5,11,12,13,14,15,17,18,19,20&format=json&test=true')
@@ -17,20 +21,20 @@ function get_ap_results {
 
       for line in $formatted
         do
-          IFS=',' read -r -a array <<< "$line"
-          #Check to see if row already exists in DB
-          exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (firstname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}'));'`
-          doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
-          #If exists, update existing row with new data
-          if [ "$doesexist" -ge "1" ];then
-            query=`echo 'UPDATE APresults SET lastupdated='${array[2]}', precincts='${array[3]}', party='${array[6]}', votecount='${array[7]}', winner='${array[8]}' WHERE (lastname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}')'`
-            echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
-          #If doesn't exist, create new row with data
-          else 
+          # IFS=',' read -r -a array <<< "$line"
+          # #Check to see if row already exists in DB
+          # exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (firstname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}'));'`
+          # doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
+          # #If exists, update existing row with new data
+          # if [ "$doesexist" -ge "1" ];then
+          #   query=`echo 'UPDATE APresults SET lastupdated='${array[2]}', precincts='${array[3]}', party='${array[6]}', votecount='${array[7]}', winner='${array[8]}' WHERE (lastname = '${array[4]}' AND lastname = '${array[5]}' AND officename = '${array[0]}')'`
+          #   echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
+          # #If doesn't exist, create new row with data
+          # else 
             #Create SQL insert query with data received from AP API
             query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, firstname, lastname, party, votecount, winner) VALUES ('$line');'`
             echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
-          fi
+          # fi
       done
   done
 }
@@ -54,20 +58,20 @@ function get_ap_prop_results {
 
       for line in $formatted
         do
-          IFS=',' read -r -a array <<< "$line"
-          exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (lastname = '${array[4]}' AND officename = '${array[0]}'));'`
-          doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
-          if [ "$doesexist" -ge "1" ];then
-            #add firstname field since it doesn't exist in object
-            newline="${line},'null'"
-            query=`echo 'UPDATE APresults SET lastupdated='${array[2]}', precincts='${array[3]}', party='${array[5]}', votecount='${array[6]}', winner='${array[7]}' WHERE (lastname = '${array[4]}' AND officename = '${array[0]}')'`
-            echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
-          else 
+          # IFS=',' read -r -a array <<< "$line"
+          # exists=`echo 'SELECT EXISTS(SELECT * FROM APresults WHERE (lastname = '${array[4]}' AND officename = '${array[0]}'));'`
+          # doesexist=$($MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016 -se $exists)
+          # if [ "$doesexist" -ge "1" ];then
+          #   #add firstname field since it doesn't exist in object
+          #   newline="${line},'null'"
+          #   query=`echo 'UPDATE APresults SET lastupdated='${array[2]}', precincts='${array[3]}', party='${array[5]}', votecount='${array[6]}', winner='${array[7]}' WHERE (lastname = '${array[4]}' AND officename = '${array[0]}')'`
+          #   echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
+          # else 
             nullline=',"null"'
             newline=$line$nullline
             query=`echo 'INSERT INTO APresults (officename, seatname, lastupdated, precincts, lastname, party, votecount, winner, firstname) VALUES ('$newline');'`
             echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
-          fi
+          # fi
       done
   done
 }
