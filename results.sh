@@ -9,7 +9,7 @@ function get_ap_results {
   echo $query | $MYSQL_COMMAND -h $ELECTIONS_DB_HOST --port=$ELECTIONS_DB_PORT --user=$ELECTIONS_DB_USER --password=$ELECTIONS_DB_PASS election2016
   #IFS (internal field separator) is reset
   IFS=
-  declare -a urls=($AP_URL'&officeID=P&officeID=S' $AP_URL'&officeID=Z&seatNum=3,7,9,11,13,15,17' $AP_URL'&officeID=Y&seatNum=2,4,10,11,14,15,16,17,18,19,20,21,22,24,25,27,28,29,30' $AP_URL'&officeID=H&seatNum=2,3,5,11,12,13,14,15,17,18,19,20')
+  declare -a urls=($AP_URL'&officeID=P&officeID=S' $AP_URL'&officeID=Z&seatNum=3,7,9,10,11,13,15,17' $AP_URL'&officeID=Y&seatNum=2,4,10,11,14,15,16,17,18,19,20,22,24,25,27,28,29,30' $AP_URL'&officeID=H&seatNum=2,3,5,11,12,13,14,15,17,18,19,20')
   for url in "${urls[@]}"
     do
       #Make GET request to AP API and use jq to format into object
